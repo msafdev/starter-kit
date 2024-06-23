@@ -10,7 +10,7 @@ import { Links } from "@/lib/constants";
 const Navbar = () => {
   return (
     <header className="pad-x flex items-center justify-between py-6">
-      <Link href={"/"} className="flex items-center gap-x-1 z-50">
+      <Link href={"/"} className="z-50 flex items-center gap-x-1">
         <Image src={Logo} alt="Logo" className="h-6 w-6" />
         <h1 className="hidden text-xl font-semibold sm:block">Acme</h1>
       </Link>
@@ -26,7 +26,7 @@ const Navbar = () => {
       </nav>
 
       <div className="hidden items-center gap-x-2 sm:flex">
-        <ModeToggle />
+        <ModeToggle variant="desktop" />
         <Button variant={"default"} className="gap-x-2.5" size={"sm"}>
           <Star className="h-4 w-4" />
           Github
