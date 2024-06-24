@@ -5,8 +5,6 @@
 
 ## 🏁 Next + Tailwind Starter Kit
 
-![image](https://raw.githubusercontent.com/msafdev/background/af5aaea30cb3d807e57ddac4b03b26bb9c94692a/public/cover.png)
-
 Kickstart your development and save extra hours on your next project. This template is simply built because I am tired of repeating my dev setup. 
 
 ### 📦 Requirements
