@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+ [![License](https://img.shields.io/github/license/msafdev/starter-kit)](https://github.com/msafdev/starter-kit/blob/main/LICENSE.txt)
+ [![Issues](https://img.shields.io/github/issues/msafdev/starter-kit)](https://github.com/msafdev/starter-kit/issues)
+ [![GitHub Repo stars](https://img.shields.io/github/stars/msafdev/starter-kit?style=flat&color=yellow)](https://github.com/msafdev/starter-kit/stargazers)
 
-## Getting Started
 
-First, run the development server:
+## 🏁 Next + Tailwind Starter Kit
+
+![image](https://raw.githubusercontent.com/msafdev/background/af5aaea30cb3d807e57ddac4b03b26bb9c94692a/public/cover.png)
+
+Kickstart your development and save extra hours on your next project. This template is simply built because I am tired of repeating my dev setup. 
+
+### 📦 Requirements
+
+First, click on the button on top of the repo called "Use this template", or copy the following code:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+gh repo create new-project --public --template msafdev/starter-kit
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then, install everything:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+bun install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+or
 
-## Learn More
+```bash
+npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+Now, your template is ready to be used.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 🚦 To Do
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [x] Add CSS variables
+- [ ] Add CI/CD pipeline
+- [ ] Add more features and branches
 
-## Deploy on Vercel
+#### Disclaimer
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The project uses *Next.js*, *TailwindCSS*, *shadcn-ui*, and *Typescript*.
